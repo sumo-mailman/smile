@@ -12,7 +12,7 @@ class SmileTest {
     Smile subject = new Smile(1, true, true);
     assertEquals(1, subject.getId());
     assertEquals(true, subject.isCrying());
-    assertEquals(true, subject.isLaughing());
+    assertEquals(true, subject.isLaughing();
   }
 
 }
