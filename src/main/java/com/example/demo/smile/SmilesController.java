@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SmilesController {
   @GetMapping("/home")
   public Smile create() {
-    Smile smile = new Smile(1, true, true);
+    Smile smile = new Smile(1, true, false);
     return smile;
   }
 }

@@ -9,10 +9,10 @@ class SmileTest {
   @Test
   void testConstructors() {
     // Long and Boolean
-    Smile subject = new Smile(1, true, true);
+    Smile subject = new Smile(1, true, false);
     assertEquals(1, subject.getId());
     assertEquals(true, subject.isCrying());
-    assertEquals(true, subject.isLaughing());
+    assertEquals(false, subject.isLaughing());
   }
 
 }
