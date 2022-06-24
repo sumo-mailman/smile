@@ -52,3 +52,4 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
+          checkstyle_config: google_checks.xml
